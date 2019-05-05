@@ -2651,6 +2651,10 @@ input, select, textarea {
             border-radius: 50%;
 		}
 
+        .image_no_radius img {
+            border-radius: 0 !important;
+        }
+
 		a.image:hover img {
             filter: grayscale(100%);
             -moz-filter: grayscale(100%);
