@@ -3750,6 +3750,19 @@ input, select, textarea {
 			margin: 0;
 		}
 
+        .submenu {
+            width: 90% !important;
+            padding: 30px 10px !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+            text-align: center;
+        }
+
+        .submenu a {
+            padding: 0 5%;
+            border-bottom: none !important;
+        }
+
 			#main > *:first-child {
 				border-top: 0;
 			}
